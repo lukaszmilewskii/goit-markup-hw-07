@@ -1,0 +1,20 @@
+.page {
+  font-family: $font-primary;
+  color: $font-color-1;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  &__section {
+    padding: 94px 0;
+  }
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__banner {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: $background-color-2;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/people-working.jpg);
+  }
+}
