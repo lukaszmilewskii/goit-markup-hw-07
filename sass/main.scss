@@ -1,6 +1,7 @@
 @import "./utils/variables";
-@import './components/base';
-@import './components/page';
+@import "./utils/reset";
+@import './components/container';
+@import './components/section';
 @import './components/logo';
 @import './components/banner';
 @import './components/button';
@@ -8,6 +9,8 @@
 @import './components/menu';
 @import './components/backdrop';
 @import './components/modal';
+@import './components/form';
+@import './components/checkbox';
 @import './components/trumps-section';
 @import './components/clients-section';
 @import './components/filter';
